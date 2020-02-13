@@ -25,6 +25,9 @@
     },
     "dependencies": {
         "vue-axios": "^2.1.5",
-        "vue-router": "^3.1.5"
+        "vue-moment": "^4.1.0",
+        "vue-router": "^3.1.5",
+        "vue2-datepicker": "^3.3.0",
+        "vuejs-datepicker": "^1.6.2"
     }
 }

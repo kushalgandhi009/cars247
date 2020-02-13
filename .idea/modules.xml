@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/test-project-laravel-vue.iml" filepath="$PROJECT_DIR$/.idea/test-project-laravel-vue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/test-project-laravel-vue2.iml" filepath="$PROJECT_DIR$/.idea/test-project-laravel-vue2.iml" />
     </modules>
   </component>
 </project>

@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Laravel</title>
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
-    <link href="{{ mix('css/app.css') }}" type="text/css" rel="stylesheet" />
+{{--    <link href="{{ mix('css/app.css') }}" type="text/css" rel="stylesheet" />--}}
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}" type="text/css" />
     <meta name="csrf-token" value="{{ csrf_token() }}" />
 </head>
 <body>
 <div id="app">
     <example-component></example-component>
 </div>
-<script src="{{ mix('js/app.js') }}" type="text/javascript"></script>
+{{--<script src="{{ mix('js/app.js') }}" type="text/javascript"></script>--}}
+<script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
